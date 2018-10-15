@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Baniwal_Importexportcategory::importcategory" title="Import Categories" module="Baniwal_Importexportcategory" sortOrder="26" resource="Baniwal_Importexportcategory::importcategory"/>
+        <add id="Baniwal_Importexportcategory::importexportcategory" title="Import Categories" module="Baniwal_Importexportcategory" sortOrder="10" action="baniwal_importexportcategory/importcategory/new" resource="Baniwal_Importexportcategory::importexportcategory" parent="Baniwal_Importexportcategory::importcategory"/>
+        <add id="Baniwal_Importexportcategory::exportcategory" title="Export Categories" module="Baniwal_Importexportcategory" sortOrder="12" action="baniwal_importexportcategory/exportcategory/new" resource="Baniwal_Importexportcategory::importexportcategory" parent="Baniwal_Importexportcategory::importcategory"/>
+    </menu>
+</config>
